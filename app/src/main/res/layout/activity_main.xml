@@ -6,24 +6,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="30dp"
     tools:context="com.example.myapplication.MainActivity">
 
     <Button
         android:id="@+id/create_wallet_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Create Wallet"
         android:textColor="#FFF"
         android:layout_centerHorizontal="true"
         android:padding="8dp"
         android:layout_marginTop="30dp"
-        android:background="@color/colorPrimary"
+        android:background="#aa00ff"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/backup_wallet_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Backup Wallet"
         android:textColor="#FFF"
@@ -31,13 +32,13 @@
         android:padding="8dp"
         android:layout_below="@+id/create_wallet_button"
         android:layout_marginTop="20dp"
-        android:background="@color/colorPrimary"
+        android:background="#0091ea"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/import_wallet_button"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Import Wallet"
         android:textColor="#FFF"
@@ -45,21 +46,21 @@
         android:padding="8dp"
         android:layout_below="@+id/backup_wallet_button"
         android:layout_marginTop="20dp"
-        android:background="@color/colorPrimary"
+        android:background="#00bfa5"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/create_wallet_master_key"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Import Wallet"
+        android:text="Create Master Secret"
         android:textColor="#FFF"
         android:layout_centerHorizontal="true"
         android:padding="8dp"
         android:layout_below="@+id/import_wallet_button"
         android:layout_marginTop="20dp"
-        android:background="@color/colorPrimary"
+        android:background="#dd2c00"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
